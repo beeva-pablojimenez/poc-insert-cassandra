@@ -1,0 +1,2 @@
+CREATE KEYSPACE IF NOT EXISTS test WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 3 }
+CREATE TABLE IF NOT EXISTS test.temperature_by_day (weatherstation_id text,date text,event_time timestamp,temperature text, PRIMARY KEY ((weatherstation_id,date),event_time))
