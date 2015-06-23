@@ -1,4 +1,4 @@
-# iniciativacassandra
+# POC-insert-cassandra
 Pre-requisitos:
 
 - Instalacion de Apache Cassandra (apache-cassandra-2.1.4)
